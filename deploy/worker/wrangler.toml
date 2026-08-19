@@ -11,10 +11,9 @@ not_found_handling = "single-page-application"
 [images]
 binding = "IMAGES"
 
-[[d1_databases]]
-binding = "img_d1"
-database_name = "cloudflare-imgbed"
-database_id = "xxxxxxxxxxxxxxxxx"
+[[kv_namespaces]]
+binding = "img_url"
+id = ""
 
 [[r2_buckets]]
 binding = "img_r2"
